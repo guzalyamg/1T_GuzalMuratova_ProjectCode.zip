@@ -1,6 +1,6 @@
 # 1T_GuzalMuratova_ProjectCode.zip
 shop ease bot for final exam
-code to entering the venv .\venv\Scripts\activate.bat
+code to entering the venv .\venv\Scripts\Activate.ps1
 
 
 ShopEase Bot – README
