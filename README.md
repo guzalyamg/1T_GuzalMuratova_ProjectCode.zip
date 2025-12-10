@@ -1,19 +1,16 @@
 # 1T_GuzalMuratova_ProjectCode.zip
 shop ease bot for final exam
-code to entering the venv .\venv\Scripts\Activate.ps1
+entering the venv .\venv\Scripts\Activate.ps1
 
 
 ShopEase Bot – README
 1. Project Overview
 ShopEase Bot is a shopping bot made in Python using Telegram.
-Users can browse categories and products.
-Users can select sizes and add products to their cart.
-Users can confirm orders.
-Admin receives order details automatically.
-This project is the final version based on our midterm presentation.
+Users can browse categories and products, Users can select sizes and add products to their cart, Users can confirm orders. And Admin receives order details automatically.
+This project is the final version based on my midterm presentation.
 
 2. Project Requirements
-You need:
+Needed:
 Python 3.10+
 PyCharm (or another Python IDE)
 Telegram account
@@ -24,7 +21,7 @@ sqlite3 (built-in with Python)
 All libraries are listed in requirements.txt.
 
 3. Project Files
-Your project folder should include:
+project folder should include:
 bot.py → main bot code
 loader.py → bot, dispatcher, and database initialization
 database/database.py → all database functions
@@ -35,9 +32,9 @@ requirements.txt → all libraries
 README.md → this file
 
 4. Setup Instructions
-Step 1 – Install Python
+Step 1 – Installing the Python
 Go to python.org and install Python 3.10+
-Make sure to check “Add Python to PATH”
+And make sure to check “Add Python to PATH”
 Step 2 – Install PyCharm
 Download PyCharm Community Edition from jetbrains.com
 Install it on your computer
@@ -58,7 +55,7 @@ BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
 ADMIN_ID = 1781282864  # replace with your Telegram ID if needed
 DB_PATH = "database/shop.db"
 5.2 Admin ID
-Change ADMIN_ID to your Telegram user ID to receive orders
+Change ADMIN_ID in the code to your Telegram user ID to receive orders
 5.3 Database
 Database file: database/shop.db
 All tables (categories, products, cart) are created automatically when bot starts
@@ -81,7 +78,7 @@ Clothes: XS, S, M, L, XL
 Shoes/Sneakers: 36, 37, 38, 39, 40
 Bot confirms: ✅ Added to cart with size …
 Viewing Cart
-Click 🛍 My Cart
+Click My Cart
 See products, sizes, and total price
 Click ✅ Confirm Order to place order
 Cancel Action
@@ -97,7 +94,7 @@ Total
 9. Testing the Bot
 Test all functions:
 Add products to cart
-Select size
+Select sizes
 Confirm order
 Cancel action
 Help command
